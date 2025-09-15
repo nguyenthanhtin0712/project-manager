@@ -1,0 +1,124 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  /* background: url('/bg.jpg') no-repeat center center fixed; */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.login-bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.25);
+}
+
+.login-container {
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.15);
+  padding: 40px 32px 24px 32px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-logo {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+.login-container h2 {
+  margin-bottom: 40px;
+  color: #222;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.login-container label {
+  /* display: block; */
+  margin: 10px 0 4px 0;
+  font-size: 0.98rem;
+  color: #333;
+}
+
+.login-container input {
+  width: 93%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  margin: 5px 0 10px 0;
+  font-size: 1rem;
+  background: #f6f8fa;
+}
+
+.login-btn {
+  width: 100%;
+  background: #0074e0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+.login-btn:hover {
+  background: #005bb5;
+}
+
+.passkey-btn {
+  width: 100%;
+  background: #fff;
+  color: #222;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.forgot {
+  display: block;
+  margin: 8px 0 8px 0;
+  font-size: 0.95rem;
+  color: #0074e0;
+  text-decoration: none;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.register-link {
+  margin-top: 18px;
+  font-size: 0.97rem;
+}
+.register-link a {
+  color: #0074e0;
+  text-decoration: none;
+  font-weight: 500;
+}
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  margin-top: 18px;
+  font-size: 0.93rem;
+  color: #888;
+  text-align: center;
+}
+.footer-links a {
+  color: #0074e0;
+  text-decoration: none;
+  margin: 0 2px;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
