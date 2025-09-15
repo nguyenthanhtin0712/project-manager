@@ -29,8 +29,12 @@
 
 - Cài đặt các dependencies cho từng phần
 - Chạy backend và frontend riêng biệt
-- Xem chi tiết trong từng thư mục
+- Cài các thư viện trước khi chạy
+- npm install
 - npm install @vitejs/plugin-vue --save-dev
 - npm install pg
 - npm install bcrypt
 - npm install cors
+
+- Chạy backend: npm start
+- Chạy frontend: npm run dev
